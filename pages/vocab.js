@@ -9,20 +9,20 @@ const emptyDef = () => {
 const showDefs = (array) => {
   clearDom();
 
-  const btnString = '<button type="button" class="btn btn-outline-success">Add A Term</button>';
+  const btnString = '<button type="button" class="btn btn-outline-success" id="add-def-btn">Add A Definition</button>';
   renderToDom('#add-button', btnString);
 
   let domString = '';
   if (array.length < 1) {
     emptyDef();
   } else {
-    array.forEach((term) => {
+    array.forEach((gen) => {
       domString += `
       <div class="card" style="width: 18rem;">
         <div class="card-body">
-          <h5 class="card-title">${term.term}</h5>
-          <h6 class="card-subtitle mb-2 text-body-secondary">${term.vocabType}</h6>
-          <p class="card-text">${term.definition}</p>
+          <h5 class="card-title">${gen.title}</h5>
+          <h6 class="card-subtitle mb-2 text-body-secondary">${gen.techType}</h6>
+          <p class="card-text">${gen.definition}</p>
           <button type="button" class="btn btn-outline-info">Update</button>
           <button type="button" class="btn btn-outline-danger">Delete</button>
         </div>
