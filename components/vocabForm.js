@@ -8,11 +8,11 @@ const addDefForm = (uid, termData = {}) => {
   <form id="${termData.firebaseKey ? `update-definition--${termData.firebaseKey}` : 'submit-Definition'}" class="mb-4">
       <div class="form-group">
         <label for="title">Title</label>
-        <input type="text" class="form-control" id="title" aria-describedby="techType" placeholder="Enter Definition" value="${termData.title || ''}" required>
+        <input type="text" class="form-control" id="title" aria-describedby="techType" placeholder="Enter Title" value="${termData.title || ''}" required>
       </div>
       <div class="form-group">
         <label for="title">Tech/Language</label>
-        <input type="text" class="form-control" id="techType" aria-describedby="techType" placeholder="Tech" value="${termData.techType || ''}" required>
+        <input type="text" class="form-control" id="techType" aria-describedby="techType" placeholder="Tech/Language" value="${termData.techType || ''}" required>
       </div>
       <div class="form-group">
         <label for="description">Definition</label>
