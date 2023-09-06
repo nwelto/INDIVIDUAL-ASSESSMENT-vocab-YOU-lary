@@ -5,7 +5,7 @@ import renderToDom from '../utils/renderToDom';
 const addDefForm = (uid, termData = {}) => {
   clearDom();
   const domString = `
-  <form id="${termData.firebaseKey ? `update-definition--${termData.firebaseKey}` : 'submit-Definition'}" class="mb-4">
+  <form id="${termData.firebaseKey ? `update-definition--${termData.firebaseKey}` : 'submit-definition'}" class="mb-4">
       <div class="form-group">
         <label for="title">Title</label>
         <input type="text" class="form-control" id="title" aria-describedby="techType" placeholder="Enter Title" value="${termData.title || ''}" required>
