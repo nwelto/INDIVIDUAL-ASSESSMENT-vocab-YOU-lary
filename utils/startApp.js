@@ -1,17 +1,27 @@
 import { getDef } from '../api/vocabdata';
 import domEvents from '../events/domEvents';
-import { showDefs } from '../pages/vocab';
+import { emptyDef, showDefs } from '../pages/vocab';
 import domBuilder from '../shared/domBuilder';
 import navBar from '../shared/navbar';
 import formEvents from '../events/formEvents';
+import navEvents from '../events/navEvents';
+import logoutButton from '../components/logoutButton';
 
 const startApp = (user) => {
   domBuilder(user);
   navBar();
-  getDef(user.uid).then((title) => {
-    showDefs(title);
-  });
-  domEvents();
+  domEvents(user.uid);
   formEvents(user);
+  navEvents(user);
+  logoutButton();
+
+  getDef(user.uid).then((array) => {
+    if (array.length) {
+      showDefs(array);
+    } else {
+      emptyDef();
+    }
+  });
 };
+
 export default startApp;

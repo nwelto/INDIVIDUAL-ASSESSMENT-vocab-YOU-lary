@@ -16,10 +16,12 @@ const navBar = () => {
          <li class="nav-item">
          <a class="nav-link active" aria-current="page" href="#" id="language">Language</a>
        </li>
+       <li class="nav-item">
+       <a class="nav-link active" aria-current="page" href="#" id="add-def-btn">Add Definition</a>
+        </li>
        </ul>
        <form class="d-flex" role="search">
-         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-         <button class="btn btn-success" type="submit">Search</button>
+         <input class="form-control me-2" id="search" type="search" placeholder="Search Definitions" aria-label="Search">
        </form>
      </div>
    </div>
