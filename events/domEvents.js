@@ -5,7 +5,8 @@ import { emptyDef, showDefs } from '../pages/vocab';
 const domEvents = (user) => {
   console.warn('user');
   document.querySelector('#main-container').addEventListener('click', (e) => {
-    if (e.target.id.includes('delete-btn')) {
+    if (e.target.id.includes('delete-def-btn')) {
+      console.warn('user');
       // eslint-disable-next-line no-alert
       if (window.confirm('Are you sure?')) {
         const [, firebaseKey] = e.target.id.split('--');
@@ -16,6 +17,7 @@ const domEvents = (user) => {
             } else {
               emptyDef();
             }
+            window.location.reload();
           });
         });
       }
