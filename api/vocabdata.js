@@ -65,6 +65,16 @@ const deleteDef = (firebaseKey) => new Promise((resolve, reject) => {
     .then(resolve)
     .catch(reject);
 });
+
+const searchDef = (searchValue, uid) => new Promise((resolve, reject) => {
+  getDef(uid).then((defArray) => {
+    const searchResults = defArray.filter((gen) => (
+      gen.title.toLowerCase().includes(searchValue)
+      || gen.techType.toLowerCase().includes(searchValue)
+    ));
+    resolve(searchResults);
+  }).catch(reject);
+});
 export {
 
   getDef,
@@ -72,4 +82,5 @@ export {
   createDef,
   updateDef,
   deleteDef,
+  searchDef
 };
