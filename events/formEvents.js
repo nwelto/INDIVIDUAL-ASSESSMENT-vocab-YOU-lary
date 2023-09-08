@@ -13,8 +13,8 @@ const formEvents = (user) => {
         uid: user.uid
       };
 
-      createDef(payload).then(({ def }) => {
-        const patchPayload = { firebaseKey: def };
+      createDef(payload).then(({ name }) => {
+        const patchPayload = { firebaseKey: name };
 
         updateDef(patchPayload).then(() => {
           getDef(user.uid).then(showDefs);

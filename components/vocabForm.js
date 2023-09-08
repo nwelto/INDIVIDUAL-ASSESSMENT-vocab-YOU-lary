@@ -1,4 +1,4 @@
-import { getSingleDef } from '../api/vocabdata';
+// import { getSingleDef } from '../api/vocabdata';
 import clearDom from '../utils/clearDom';
 import renderToDom from '../utils/renderToDom';
 
@@ -22,6 +22,5 @@ const addDefForm = (uid, termData = {}) => {
       </button>
   </form>`;
   renderToDom('#form-container', domString);
-  getSingleDef(`${termData.firebaseKey || ''}`, uid);
 };
 export default addDefForm;
