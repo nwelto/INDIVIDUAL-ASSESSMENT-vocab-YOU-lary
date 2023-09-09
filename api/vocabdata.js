@@ -75,6 +75,7 @@ const searchDef = (searchValue, uid) => new Promise((resolve, reject) => {
     resolve(searchResults);
   }).catch(reject);
 });
+
 export {
 
   getDef,
@@ -82,5 +83,6 @@ export {
   createDef,
   updateDef,
   deleteDef,
-  searchDef
+  searchDef,
+
 };
