@@ -1,6 +1,7 @@
 import addDefForm from '../components/vocabForm';
 import { searchDef, getDef } from '../api/vocabdata';
 import { emptyDef, showDefs } from '../pages/vocab';
+import clearForm from '../utils/clearForm';
 
 const navEvents = (user) => {
   document.querySelector('#nav-bar').addEventListener('click', (e) => {
@@ -8,8 +9,7 @@ const navEvents = (user) => {
       addDefForm(user.uid);
     }
   });
-
-  document.querySelector('#nav-bar').addEventListener('click', () => {
+  document.querySelector('#all-vocab').addEventListener('click', () => {
     getDef(user.uid).then((array) => {
       if (array.length) {
         showDefs(array);
@@ -17,8 +17,8 @@ const navEvents = (user) => {
         emptyDef();
       }
     });
+    clearForm();
   });
-
   document.querySelector('#search').addEventListener('keyup', (e) => {
     const searchValue = document.querySelector('#search').value.toLowerCase();
 

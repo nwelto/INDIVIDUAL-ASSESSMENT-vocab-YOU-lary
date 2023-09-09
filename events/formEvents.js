@@ -12,14 +12,15 @@ const formEvents = (user) => {
         techType: document.querySelector('#techType').value,
         uid: user.uid
       };
+      clearForm();
 
       createDef(payload).then(({ name }) => {
         const patchPayload = { firebaseKey: name };
 
         updateDef(patchPayload).then(() => {
           getDef(user.uid).then(showDefs);
+          clearForm();
         });
-        clearForm();
       });
     }
     if (e.target.id.includes('update-definition')) {
@@ -34,8 +35,8 @@ const formEvents = (user) => {
 
       updateDef(payload).then(() => {
         getDef(user.uid).then(showDefs);
+        clearForm();
       });
-      clearForm();
     }
   });
 };
