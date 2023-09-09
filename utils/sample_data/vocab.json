@@ -30,5 +30,198 @@
     "timeSubmitted": "2022-10-07 12:40:54",
     "uid": "5mjGuFsefnQoU8ORy0xZK9Be4bH2",
     "techType": "HTML"
-  }
+  },
+  "-NdLuRvnlajdDEU8ADAT": {
+    "firebaseKey": "-NdLuRvnlajdDEU8ADAT",
+    "title": "JavaScript Functions",
+    "definition": "In JavaScript, functions are first-class objects, because they can have properties and methods just like any other object. They can be passed as arguments to other functions, they can be assigned to variables, they can be stored in other data structures, or they can be returned as values from other functions.",
+    "timeSubmitted": "2024-11-01 00:00:00",
+    "uid": "5mjGuFsefnQoU8ORy0xZK9Be4bH2",
+    "techType": "JavaScript"
+  },
+  "-NdLuRvnlajdDEU8ADAU": {
+    "firebaseKey": "-NdLuRvnlajdDEU8ADAU",
+    "title": "HTML Elements",
+    "definition": "An HTML element is an individual component of an HTML document or web page. HTML (Hypertext Markup Language) elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page.",
+    "timeSubmitted": "2024-12-01 01:00:00",
+    "uid": "5mjGuFsefnQoU8ORy0xZK9Be4bH2",
+    "techType": "HTML"
+  },
+  "-NdLuRvnlajdDEU8ADAV": {
+    "firebaseKey": "-NdLuRvnlajdDEU8ADAV",
+    "title": "JSON Objects",
+    "definition": "In JSON, an object is an unordered set of name/value pairs. An object begins with '{' (left brace) and ends with '}' (right brace). Each name is followed by ':' (colon) and the name/value pairs are separated by ',' (comma).",
+    "timeSubmitted": "2025-01-01 02:00:00",
+    "uid": "5mjGuFsefnQoU8ORy0xZK9Be4bH2",
+    "techType": "JSON"
+  },
+  "-NdLuRvnlajdDEU8ADAW": {
+    "firebaseKey": "-NdLuRvnlajdDEU8ADAW",
+    "title": "CSS Selectors",
+    "definition": "In CSS, selectors are patterns used to select the elements you want to style. There are several different types of selectors in CSS, including class selectors, ID selectors, and type selectors.",
+    "timeSubmitted": "2025-02-01 03:00:00",
+    "uid": "5mjGuFsefnQoU8ORy0xZK9Be4bH2",
+    "techType": "CSS"
+  },
+  "-NdLuRvnlajdDEU8ADAX": {
+    "firebaseKey": "-NdLuRvnlajdDEU8ADAX",
+    "title": "JavaScript Variables",
+    "definition": "In JavaScript, variables are containers for storing data values. JavaScript uses the var keyword to declare variables. An equal sign is used to assign values to variables.",
+    "timeSubmitted": "2025-03-01 04:00:00",
+    "uid": "5mjGuFsefnQoU8ORy0xZK9Be4bH2",
+    "techType": "JavaScript"
+  },
+  "-NdLuRvnlajdDEU8ADAY": {
+    "firebaseKey": "-NdLuRvnlajdDEU8ADAY",
+    "title": "HTML Attributes",
+    "definition": "HTML attributes provide additional information about HTML elements. Attributes are always specified in the start tag and usually come in name/value pairs like name=\"value\".",
+    "timeSubmitted": "2025-04-01 05:00:00",
+    "uid": "5mjGuFsefnQoU8ORy0xZK9Be4bH2",
+    "techType": "HTML"
+  },
+  "-NdLuRvnlajdDEU8ADAZ": {
+    "firebaseKey": "-NdLuRvnlajdDEU8ADAZ",
+    "title": "JSON Arrays",
+    "definition": "In JSON, an array is an ordered collection of values. An array begins with '[' (left bracket) and ends with ']' (right bracket). Values are separated by ',' (comma).",
+    "timeSubmitted": "2025-05-01 06:00:00",
+    "uid": "5mjGuFsefnQoU8ORy0xZK9Be4bH2",
+    "techType": "JSON"
+  },
+  "-NdLuRvnlajdDEU8ADBA": {
+    "firebaseKey": "-NdLuRvnlajdDEU8ADBA",
+    "title": "CSS Box Model",
+    "definition": "The CSS box model is a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content. The box model allows us to add a border around elements, and to define space between elements.",
+    "timeSubmitted": "2025-06-01 07:00:00",
+    "uid": "5mjGuFsefnQoU8ORy0xZK9Be4bH2",
+    "techType": "CSS"
+  },
+  "-NdLuRvnlajdDEU8ADBB": {
+    "firebaseKey": "-NdLuRvnlajdDEU8ADBB",
+    "title": "JavaScript Promises",
+    "definition": "A Promise in JavaScript is an object representing the eventual completion or failure of an asynchronous operation. It serves as a placeholder for the eventual results of the operation.",
+    "timeSubmitted": "2025-07-01 08:00:00",
+    "uid": "5mjGuFsefnQoU8ORy0xZK9Be4bH2",
+    "techType": "JavaScript"
+  },
+  "-NdLuRvnlajdDEU8ADBC": {
+    "firebaseKey": "-NdLuRvnlajdDEU8ADBC",
+    "title": "JavaScript Objects",
+    "definition": "In JavaScript, an object is a standalone entity that stores multiple values as properties and methods. Objects can be created using object literals or constructor functions, and they allow for structured data storage and manipulation.",
+    "timeSubmitted": "2025-08-01 09:00:00",
+    "uid": "5mjGuFsefnQoU8ORy0xZK9Be4bH2",
+    "techType": "JavaScript"
+  },
+  "-NdLuRvnlajdDEU8ADBD": {
+    "firebaseKey": "-NdLuRvnlajdDEU8ADBD",
+    "title": "HTML Forms",
+    "definition": "HTML forms are used to collect user input. They allow users to enter data that can be submitted to a server for processing. Forms can contain various types of input elements, such as text fields, checkboxes, radio buttons, and more.",
+    "timeSubmitted": "2025-09-01 10:00:00",
+    "uid": "5mjGuFsefnQoU8ORy0xZK9Be4bH2",
+    "techType": "HTML"
+  },
+  "-NdLuRvnlajdDEU8ADBE": {
+    "firebaseKey": "-NdLuRvnlajdDEU8ADBE",
+    "title": "JSON Parsing",
+    "definition": "JSON parsing is the process of converting a JSON string into a JavaScript object. JavaScript provides built-in methods, such as JSON.parse(), to parse JSON data and extract the values for further manipulation.",
+    "timeSubmitted": "2025-10-01 11:00:00",
+    "uid": "5mjGuFsefnQoU8ORy0xZK9Be4bH2",
+    "techType": "JSON"
+  },
+  "-NdLuRvnlajdDEU8ADBF": {
+    "firebaseKey": "-NdLuRvnlajdDEU8ADBF",
+    "title": "CSS Flexbox",
+    "definition": "CSS Flexbox is a layout module that provides a more efficient way to arrange, align, and distribute space among items in a container. It allows for flexible and responsive designs, making it easier to create complex layouts.",
+    "timeSubmitted": "2025-11-01 12:00:00",
+    "uid": "5mjGuFsefnQoU8ORy0xZK9Be4bH2",
+    "techType": "CSS"
+  },
+  "-NdLuRvnlajdDEU8ADBG": {
+    "firebaseKey": "-NdLuRvnlajdDEU8ADBG",
+    "title": "JavaScript Modules",
+    "definition": "JavaScript modules are reusable pieces of code that encapsulate related functionality. They allow for better organization, maintainability, and reusability of code. Modules can be exported and imported using the `export` and `import` keywords.",
+    "timeSubmitted": "2025-12-01 13:00:00",
+    "uid": "5mjGuFsefnQoU8ORy0xZK9Be4bH2",
+    "techType": "JavaScript"
+  },
+  
+    "-NdLuRvnlajdDEU8ADBH": {
+      "firebaseKey": "-NdLuRvnlajdDEU8ADBH",
+      "title": "JavaScript Functions",
+      "definition": "In JavaScript, a function is a block of code that can be invoked to perform a specific task. Functions allow for code reuse, modularity, and abstraction. They can accept parameters and return values.",
+      "timeSubmitted": "2026-01-01 14:00:00",
+      "uid": "5mjGuFsefnQoU8ORy0xZK9Be4bH2",
+      "techType": "JavaScript"
+    },
+    "-NdLuRvnlajdDEU8ADBI": {
+      "firebaseKey": "-NdLuRvnlajdDEU8ADBI",
+      "title": "HTML5 Semantic Elements",
+      "definition": "HTML5 introduced new semantic elements that provide a more meaningful structure to web documents. These elements, such as <header>, <nav>, <section>, <article>, and <footer>, help improve accessibility, SEO, and code readability.",
+      "timeSubmitted": "2026-02-01 15:00:00",
+      "uid": "5mjGuFsefnQoU8ORy0xZK9Be4bH2",
+      "techType": "HTML"
+    },
+    "-NdLuRvnlajdDEU8ADBJ": {
+      "firebaseKey": "-NdLuRvnlajdDEU8ADBJ",
+      "title": "JSON.stringify()",
+      "definition": "JSON.stringify() is a built-in JavaScript method that converts a JavaScript object or value into a JSON string. It is commonly used to serialize data for storage or transmission.",
+      "timeSubmitted": "2026-03-01 16:00:00",
+      "uid": "5mjGuFsefnQoU8ORy0xZK9Be4bH2",
+      "techType": "JSON"
+    },
+    "-NdLuRvnlajdDEU8ADBK": {
+      "firebaseKey": "-NdLuRvnlajdDEU8ADBK",
+      "title": "CSS Grid",
+      "definition": "CSS Grid is a powerful layout system that allows for two-dimensional grid-based layouts. It provides precise control over the placement and sizing of elements, making it ideal for complex and responsive designs.",
+      "timeSubmitted": "2026-04-01 17:00:00",
+      "uid": "5mjGuFsefnQoU8ORy0xZK9Be4bH2",
+      "techType": "CSS"
+    },
+    "-NdLuRvnlajdDEU8ADBL": {
+      "firebaseKey": "-NdLuRvnlajdDEU8ADBL",
+      "title": "JavaScript Arrow Functions",
+      "definition": "JavaScript arrow functions are a concise syntax for writing anonymous functions. They provide a shorter and more readable way to define functions, especially for simple one-liner functions.",
+      "timeSubmitted": "2026-05-01 18:00:00",
+      "uid": "5mjGuFsefnQoU8ORy0xZK9Be4bH2",
+      "techType": "JavaScript"
+    },
+    "-NdLuRvnlajdDEU8ADBM": {
+      "firebaseKey": "-NdLuRvnlajdDEU8ADBM",
+      "title": "JavaScript Promises",
+      "definition": "JavaScript Promises are objects that represent the eventual completion (or failure) of an asynchronous operation. They provide a more structured way to handle asynchronous code and avoid callback hell.",
+      "timeSubmitted": "2026-06-01 19:00:00",
+      "uid": "5mjGuFsefnQoU8ORy0xZK9Be4bH2",
+      "techType": "JavaScript"
+    },
+    "-NdLuRvnlajdDEU8ADBN": {
+      "firebaseKey": "-NdLuRvnlajdDEU8ADBN",
+      "title": "HTML5 Canvas",
+      "definition": "HTML5 Canvas is an HTML element that provides a drawing surface for JavaScript. It allows for dynamic, scriptable rendering of 2D shapes, images, and animations on a web page.",
+      "timeSubmitted": "2026-07-01 20:00:00",
+      "uid": "5mjGuFsefnQoU8ORy0xZK9Be4bH2",
+      "techType": "HTML"
+    },
+    "-NdLuRvnlajdDEU8ADBO": {
+      "firebaseKey": "-NdLuRvnlajdDEU8ADBO",
+      "title": "JSON Schema",
+      "definition": "JSON Schema is a vocabulary that allows you to annotate and validate JSON documents. It provides a way to define the structure, data types, and constraints of JSON data.",
+      "timeSubmitted": "2026-08-01 21:00:00",
+      "uid": "5mjGuFsefnQoU8ORy0xZK9Be4bH2",
+      "techType": "JSON"
+    },
+    "-NdLuRvnlajdDEU8ADBP": {
+      "firebaseKey": "-NdLuRvnlajdDEU8ADBP",
+      "title": "CSS Transitions",
+      "definition": "CSS Transitions allow you to smoothly animate changes in CSS properties over a specified duration. They provide a way to add visual effects and enhance user interactions on web pages.",
+      "timeSubmitted": "2026-09-01 22:00:00",
+      "uid": "5mjGuFsefnQoU8ORy0xZK9Be4bH2",
+      "techType": "CSS"
+    },
+    "-NdLuRvnlajdDEU8ADBQ": {
+      "firebaseKey": "-NdLuRvnlajdDEU8ADBQ",
+      "title": "JavaScript Destructuring",
+      "definition": "JavaScript destructuring is a way to extract values from arrays or objects into individual variables. It provides a concise syntax for assigning values and accessing nested data structures.",
+      "timeSubmitted": "2026-10-01 23:00:00",
+      "uid": "5mjGuFsefnQoU8ORy0xZK9Be4bH2",
+      "techType": "JavaScript"
+    }
 }
