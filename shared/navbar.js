@@ -10,17 +10,6 @@ const navBar = () => {
      </button>
      <div class="collapse navbar-collapse" id="all-defs">
        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbardrpdwn" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Language
-          </a>
-          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-          <li><a class="dropdown-item tech-type-item" data-tech-type="HTML" href="#">HTML</a></li>
-          <li><a class="dropdown-item tech-type-item" data-tech-type="CSS" href="#">CSS</a></li>
-          <li><a class="dropdown-item tech-type-item" data-tech-type="JavaScript" href="#">JavaScript</a></li>
-          <li><a class="dropdown-item tech-type-item" data-tech-type="JSON" href="#">JSON</a></li>
-        </ul>
-        </li>
          <li class="nav-item">
            <a class="nav-link active" aria-current="page" href="#" id="all-vocab">All</a>
        <li class="nav-item">

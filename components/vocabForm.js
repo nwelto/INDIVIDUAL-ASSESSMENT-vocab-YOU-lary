@@ -1,4 +1,4 @@
-// import { getSingleDef } from '../api/vocabdata';
+import { getSingleDef } from '../api/vocabdata';
 import clearDom from '../utils/clearDom';
 import renderToDom from '../utils/renderToDom';
 
@@ -16,11 +16,12 @@ const addDefForm = (uid, termData = {}) => {
       </div>
       <div class="form-group">
         <label for="description">Definition</label>
-        <textarea class="form-control" placeholder="Definition" id="description" style="height: 100px">${termData.description || ''}</textarea>
+        <textarea class="form-control" placeholder="Definition" id="description" style="height: 100px">${termData.definition || ''}</textarea>
       </div>
       <button type="submit" class="btn btn-primary" id="submit-definition">Submit Definition
       </button>
   </form>`;
   renderToDom('#form-container', domString);
+  getSingleDef(`${termData.firebaseKey || ''}`, uid);
 };
 export default addDefForm;
